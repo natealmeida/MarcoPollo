@@ -21,6 +21,7 @@
 		43C06C6218B032F400076EF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C06C4418B032F400076EF6 /* UIKit.framework */; };
 		43C06C6A18B032F400076EF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43C06C6818B032F400076EF6 /* InfoPlist.strings */; };
 		43C06C6C18B032F400076EF6 /* MarcoPolloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C06C6B18B032F400076EF6 /* MarcoPolloTests.m */; };
+		43D2246918B30F0800CD853F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D2246818B30F0800CD853F /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		43C06C6718B032F400076EF6 /* MarcoPolloTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarcoPolloTests-Info.plist"; sourceTree = "<group>"; };
 		43C06C6918B032F400076EF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		43C06C6B18B032F400076EF6 /* MarcoPolloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarcoPolloTests.m; sourceTree = "<group>"; };
+		43D2246818B30F0800CD853F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43D2246918B30F0800CD853F /* Social.framework in Frameworks */,
 				43C06C4318B032F400076EF6 /* CoreGraphics.framework in Frameworks */,
 				43C06C4518B032F400076EF6 /* UIKit.framework in Frameworks */,
 				43C06C4118B032F400076EF6 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		43C06C3F18B032F400076EF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				43D2246818B30F0800CD853F /* Social.framework */,
 				43C06C4018B032F400076EF6 /* Foundation.framework */,
 				43C06C4218B032F400076EF6 /* CoreGraphics.framework */,
 				43C06C4418B032F400076EF6 /* UIKit.framework */,
@@ -460,6 +464,7 @@
 				43C06C7118B032F400076EF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43C06C7218B032F400076EF6 /* Build configuration list for PBXNativeTarget "MarcoPolloTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				43C06C7418B032F400076EF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
